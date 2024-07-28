@@ -12,5 +12,10 @@ cargo run -- <pattern> <file name>
 ```
 To perform case-insensitve searching use `IGNORE_CASE=1`
 ```sh 
+IGNORE_CASE=1 minigrep <pattern> <file name>
+```
+
+`Cargo`:
+```sh 
 IGNORE_CASE=1 cargo run -- <pattern> <file name>
 ```
